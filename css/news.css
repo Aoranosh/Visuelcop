@@ -1,0 +1,22 @@
+article{
+  display: inline-flex !important;
+  justify-content: space-around;
+  padding-left: 5%;
+  position: relative;
+}
+
+h1{
+  color: #003366;
+}
+
+.lireSuite{
+  float: right;
+  transform: translate(-80%, -20%);
+}
+
+@media screen and (max-width: 660px){
+  img{
+    margin-top: 4em;
+    padding-right: 3%;
+  }
+}

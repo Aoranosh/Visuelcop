@@ -1,0 +1,131 @@
+body{
+    color: #003366;
+}
+
+.wrapper{
+    margin: 100px auto;
+    align-content: center;
+    background-color: rgba(34, 24, 42, 0.33);
+}
+
+h1{
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+    margin-bottom: 100px;
+    margin-left: 20%;
+}
+
+h2{
+    font-weight: 500;
+    margin-top: 0;
+}
+
+#sign-in button{
+     margin-left: 10%;
+}
+
+#sign-up button{
+     margin-left: 10%;
+}
+
+#sign-up{
+     margin-left: 40%;
+     padding-top: 5%;
+     padding-bottom: 10%;
+}
+
+#sign-in{
+     margin-left: 40%;
+     padding-top: 5%;
+     padding-bottom: 10%;
+}
+
+form{
+  padding-top: 2em;
+}
+
+input, button{
+    font-size: 18px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, .1);
+    transition-duration: .3s;
+}
+input{
+    display: block;
+    margin-bottom: 32px;
+}
+
+form input{
+  margin-bottom: 3%;
+  margin-left: 0.5em;
+}
+
+input:focus{
+    background-color: rgba(255, 255, 255, .03);
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255, 255, 255, .6);
+}
+:-moz-placeholder{
+   color: rgba(255, 255, 255, .6);
+}
+
+::-moz-placeholder{
+   color: rgba(255, 255, 255, .6);
+}
+
+:-ms-input-placeholder{
+   color: rgba(255, 255, 255, .6);
+}
+
+button{
+    margin-left: 4em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, .03);
+}
+
+.shake{
+    animation: shake .82s cubic-bezier(.36, .07, .19, .97);
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        border-color: #F44336;
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+@media screen and (max-width: 375px) {
+  #sign-in{
+    margin-left: 20%;
+  }
+  #sign-up{
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width:376px;) {
+  #sign-in{
+       margin-left: 40%;
+       margin-top: 5%;
+  }
+  #sign-up{
+       margin-left: 20%;
+       margin-top: 5%;
+  }
+}

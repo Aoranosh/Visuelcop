@@ -1,0 +1,9 @@
+article{
+  margin-bottom: 5%;
+}
+@media screen and (min-width:1024px) {
+  img{
+    margin-left: 40%;
+    padding-bottom: 3%;
+  }
+}

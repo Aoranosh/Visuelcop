@@ -1,0 +1,89 @@
+.mainIMG h1{
+  font-size: 48px;
+}
+
+.mainIMG h1, .mainIMG h3{
+  color: #707490 !important;
+}
+
+.mainIMG h3{
+  padding-left: 33%;
+  padding-top: 5%;
+  font-size: 24px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+      margin: auto;
+}
+
+#indexMembre, #indexNews h3{
+margin-left: 10%;
+}
+
+section{
+  margin: 0 auto;
+}
+
+.carrousel p{
+  font-size: 12px;
+}
+
+.profileImg img{
+  width: 97%;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+
+.communaute section{
+  display: inline-flex;
+  border-top: 2px double black;
+  box-shadow: 0 0 0 0.6;
+  justify-content: center;
+}
+
+article{
+  justify-content: space-around;
+  padding-left: 10%;
+  padding-top: 1%;
+  position: relative;
+}
+
+.mediaArticle{
+  border-top: 2px double black;
+}
+
+figure{
+  height: 90px;
+}
+
+figure>a>img{
+  width: 180px;
+  height: 80px;
+}
+
+@media screen and (min-width:1024px) {
+.wrapper{
+  background: url(../central.jpeg) center no-repeat;
+  height: 700px;
+}
+}
+
+@media screen and (max-width:1024px) {
+.wrapper{
+  background: url(../central.jpeg) center no-repeat;
+  height: 400px;
+}
+}
+
+@media screen and (max-width: 426px) {
+  .mainIMG h1{
+    font-size: 24px;
+  }
+  .mainIMG h3{
+    padding-left: 33%;
+    padding-top: 5%;
+    font-size: 16px;
+  }
+}

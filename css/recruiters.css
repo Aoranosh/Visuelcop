@@ -1,0 +1,33 @@
+.navRecrut{
+  height: 100px;
+  display: inline-flex;
+  margin-left: 33%;
+}
+
+.mainRecrut{
+  display: inline-grid;
+  padding-top: 5%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.btnLog a{
+  background-color: #fff ;
+}
+
+.mainRecrut p{
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+.btnLog{
+  margin: 0 auto;
+}
+
+.jumbotron{
+  margin-top: 30px;
+}
+
+.jumbotron h1{
+  padding-left: 4%;
+}

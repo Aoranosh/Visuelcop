@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/comm.css">
+  <link rel="stylesheet" href="../css/acces.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    #map {
+      height: 400px;
+      width: 80%;
+      margin-left: 10%
+     }
+    #map2 {
+      height: 400px;
+      width: 80%;
+      margin-left: 10%;
+     }
+  </style>
+  <title>Access</title>
+</head>
+<body>
+  <header id="headerMain"></header>
+  <div class="wrapper col-12 col-m-12">
+  <main class="col-10 col-m-10">
+    <h1>Plan d'accès</h1>
+    <br>
+    <h2>Nous sommes partout</h2>
+    <h3>Retrouvez nous en Europe</h3>
+    <div id="map" class="col-10 col-m-10"></div>
+    <br><hr>
+    <h3>Retrouvez nous en Asie</h3>
+    <div id="map2" class="col-10 col-m-10"></div>
+    <br>
+    <script>
+    function initMap() {
+      var uluru = {lat: 44.1249421, lng: 4.0651353};
+      var uluru2 = {lat: 28.0138745, lng: 120.646575};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 14,
+        center: uluru
+      });
+      var map2 = new google.maps.Map(document.getElementById('map2'), {
+        zoom: 14,
+        center: uluru2
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+      var marker2 = new google.maps.Marker({
+        position: uluru2,
+        map: map2
+      });
+    } </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZiJMacYJ9HHyvjqMqT9oLTZQQZKqDoWs&callback=initMap"></script>
+  </main>
+  </div>
+  <footer></footer>
+<script src="../js/comm.js"></script>
+<script src="../js/access.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

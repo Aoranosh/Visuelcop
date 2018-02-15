@@ -1,0 +1,71 @@
+.mainMembers{
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgba(58, 72, 105, 0.71);
+  align-content: flex-start;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.mainMembers ul{
+  display: inline-grid;
+}
+
+.profileImg{
+  margin-left: 10%;
+}
+
+section{
+  display: flex !important;
+  flex-flow: row wrap;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.membersInfo{
+  margin-left: 5%;
+}
+.membersInfo ul{
+  margin-top: 3em;
+}
+
+.voirFiche:active {
+	color:#003366;
+}
+.voirFiche:link {
+	color:#999;
+}
+.voirFiche:visited {
+	color:#999;
+}
+@media screen and (min-width: 1025px) {
+  .btnMembers{
+    padding-bottom: 5%;
+    padding-left: 42%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .btnMembers{
+    padding-bottom: 5%;
+    padding-left: 38%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .btnMembers{
+    padding-bottom: 5%;
+    padding-left: 25%;
+  }
+}
+
+.btnMembers a{
+  border: 1px double black;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-right: 2%;
+  background-color: rgba(58, 72, 105, 0.71);
+  padding: 16px;
+}
